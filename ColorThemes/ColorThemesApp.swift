@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ColorThemesApp: App {
+    @StateObject private var themeManager = ThemeManager(theme: .everyYearTheme)
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(themeManager)
         }
     }
 }
+

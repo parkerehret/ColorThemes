@@ -11,6 +11,8 @@
 		C876C55D2A5C711C00AEEC11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876C55C2A5C711C00AEEC11 /* ContentView.swift */; };
 		C876C55F2A5C711E00AEEC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C876C55E2A5C711E00AEEC11 /* Assets.xcassets */; };
 		C876C5622A5C711E00AEEC11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C876C5612A5C711E00AEEC11 /* Preview Assets.xcassets */; };
+		C876C5692A5C719200AEEC11 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876C5682A5C719200AEEC11 /* ColorTheme.swift */; };
+		C876C56B2A5C71A600AEEC11 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876C56A2A5C71A600AEEC11 /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C876C55C2A5C711C00AEEC11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C876C55E2A5C711E00AEEC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C876C5612A5C711E00AEEC11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C876C5682A5C719200AEEC11 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		C876C56A2A5C71A600AEEC11 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C876C55A2A5C711C00AEEC11 /* ColorThemesApp.swift */,
 				C876C55C2A5C711C00AEEC11 /* ContentView.swift */,
+				C876C5682A5C719200AEEC11 /* ColorTheme.swift */,
+				C876C56A2A5C71A600AEEC11 /* ThemeManager.swift */,
 				C876C55E2A5C711E00AEEC11 /* Assets.xcassets */,
 				C876C5602A5C711E00AEEC11 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C876C5692A5C719200AEEC11 /* ColorTheme.swift in Sources */,
 				C876C55D2A5C711C00AEEC11 /* ContentView.swift in Sources */,
 				C876C55B2A5C711C00AEEC11 /* ColorThemesApp.swift in Sources */,
+				C876C56B2A5C71A600AEEC11 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
