@@ -19,7 +19,7 @@ struct ContentView: View {
                         .frame(width: 44, height: 44)
                         .cornerRadius(18)
                     
-                    Text("13")
+                    Text("1")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -56,7 +56,7 @@ struct ContentView: View {
                         .frame(width: 44, height: 44)
                         .cornerRadius(18)
                     
-                    Text("13")
+                    Text("2")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -93,7 +93,7 @@ struct ContentView: View {
                         .frame(width: 44, height: 44)
                         .cornerRadius(18)
                     
-                    Text("13")
+                    Text("3")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -130,7 +130,7 @@ struct ContentView: View {
                         .frame(width: 44, height: 44)
                         .cornerRadius(18)
                     
-                    Text("13")
+                    Text("4")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -159,18 +159,7 @@ struct ContentView: View {
             .background(themeManager.currentTheme.color4.opacity(0.05))
             .cornerRadius(28)
             .padding(.horizontal, 16)
-
             
-            Rectangle().fill(themeManager.currentTheme.color1)
-                .cornerRadius(18)
-                .padding(.horizontal, 16)
-                .padding(.top, 16)
-                .frame(height: 76)
-            Rectangle().fill(themeManager.currentTheme.color2)
-                .cornerRadius(18)
-                .padding(.horizontal, 16)
-                .padding(.bottom, 16)
-                .frame(height: 76)
 
             ForEach(ColorThemeName.allCases, id: \.self) { theme in
                 Button(theme.rawValue) {
